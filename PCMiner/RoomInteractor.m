@@ -10,4 +10,15 @@
 
 @implementation RoomInteractor
 
+
+- (void)createRoom
+{
+    
+}
+
+- (void)deleteRoom
+{
+    
+}
+
 @end

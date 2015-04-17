@@ -10,4 +10,9 @@
 
 @interface Room : NSObject
 
+- (id)initWithNumberOfComputersPlaces:(int)numberOfComputersPlaces;
+
+@property (nonatomic) int numberOfComputersPlaces;
+@property (nonatomic, readonly) NSArray *computers;
+
 @end

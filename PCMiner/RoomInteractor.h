@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RoomInteractorInput.h"
+#import "RoomInteractorOutput.h"
 
-@interface RoomInteractor : NSObject
+@interface RoomInteractor : NSObject <RoomInteractorInput>
+
+
+@property (nonatomic, strong) id <RoomInteractorOutput> output;
 
 @end

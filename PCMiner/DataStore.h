@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DataStoreInterface.h"
 
-@interface DataStore : NSObject
+@interface DataStore : NSObject <DataStoreInterface>
+
+
 
 @end

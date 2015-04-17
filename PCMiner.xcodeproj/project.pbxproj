@@ -14,6 +14,13 @@
 		3FD23BCC1AE10A2700DF976F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD23BCB1AE10A2700DF976F /* Images.xcassets */; };
 		3FD23BCF1AE10A2700DF976F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD23BCD1AE10A2700DF976F /* LaunchScreen.xib */; };
 		3FD23BDB1AE10A2700DF976F /* PCMinerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BDA1AE10A2700DF976F /* PCMinerTests.m */; };
+		3FD23BE71AE1190C00DF976F /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BE61AE1190C00DF976F /* Device.m */; };
+		3FD23BEA1AE11EC400DF976F /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BE91AE11EC400DF976F /* Computer.m */; };
+		3FD23BED1AE129A600DF976F /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BEC1AE129A600DF976F /* Room.m */; };
+		3FD23BF81AE13EBF00DF976F /* RoomInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BF71AE13EBF00DF976F /* RoomInteractor.m */; };
+		3FD23BFB1AE14F3400DF976F /* RoomViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BFA1AE14F3400DF976F /* RoomViewModel.m */; };
+		3FD23BFE1AE1519100DF976F /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BFD1AE1519100DF976F /* DataStore.m */; };
+		3FD23C021AE1543C00DF976F /* RoomEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23C011AE1543C00DF976F /* RoomEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,23 @@
 		3FD23BD41AE10A2700DF976F /* PCMinerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCMinerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD23BD91AE10A2700DF976F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD23BDA1AE10A2700DF976F /* PCMinerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCMinerTests.m; sourceTree = "<group>"; };
+		3FD23BE51AE1190C00DF976F /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		3FD23BE61AE1190C00DF976F /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		3FD23BE81AE11EC400DF976F /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		3FD23BE91AE11EC400DF976F /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		3FD23BEB1AE129A600DF976F /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		3FD23BEC1AE129A600DF976F /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		3FD23BF41AE13D6600DF976F /* RoomInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomInteractorInput.h; sourceTree = "<group>"; };
+		3FD23BF51AE13D8600DF976F /* RoomInteractorOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomInteractorOutput.h; sourceTree = "<group>"; };
+		3FD23BF61AE13EBF00DF976F /* RoomInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomInteractor.h; sourceTree = "<group>"; };
+		3FD23BF71AE13EBF00DF976F /* RoomInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomInteractor.m; sourceTree = "<group>"; };
+		3FD23BF91AE14F3400DF976F /* RoomViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomViewModel.h; sourceTree = "<group>"; };
+		3FD23BFA1AE14F3400DF976F /* RoomViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomViewModel.m; sourceTree = "<group>"; };
+		3FD23BFC1AE1519100DF976F /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		3FD23BFD1AE1519100DF976F /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		3FD23BFF1AE1520B00DF976F /* DataStoreInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStoreInterface.h; sourceTree = "<group>"; };
+		3FD23C001AE1543C00DF976F /* RoomEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomEntity.h; sourceTree = "<group>"; };
+		3FD23C011AE1543C00DF976F /* RoomEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,9 @@
 		3FD23BBD1AE10A2700DF976F /* PCMiner */ = {
 			isa = PBXGroup;
 			children = (
+				3FD23BF01AE12C2C00DF976F /* Interactions */,
+				3FD23BEF1AE12BA900DF976F /* DataSore */,
+				3FD23BEE1AE12AD300DF976F /* Model */,
 				3FD23BC21AE10A2700DF976F /* AppDelegate.h */,
 				3FD23BC31AE10A2700DF976F /* AppDelegate.m */,
 				3FD23BC51AE10A2700DF976F /* ViewController.h */,
@@ -117,6 +144,44 @@
 				3FD23BD91AE10A2700DF976F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FD23BEE1AE12AD300DF976F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FD23BE51AE1190C00DF976F /* Device.h */,
+				3FD23BE61AE1190C00DF976F /* Device.m */,
+				3FD23BE81AE11EC400DF976F /* Computer.h */,
+				3FD23BE91AE11EC400DF976F /* Computer.m */,
+				3FD23BEB1AE129A600DF976F /* Room.h */,
+				3FD23BEC1AE129A600DF976F /* Room.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3FD23BEF1AE12BA900DF976F /* DataSore */ = {
+			isa = PBXGroup;
+			children = (
+				3FD23C001AE1543C00DF976F /* RoomEntity.h */,
+				3FD23C011AE1543C00DF976F /* RoomEntity.m */,
+				3FD23BFC1AE1519100DF976F /* DataStore.h */,
+				3FD23BFD1AE1519100DF976F /* DataStore.m */,
+				3FD23BFF1AE1520B00DF976F /* DataStoreInterface.h */,
+			);
+			name = DataSore;
+			sourceTree = "<group>";
+		};
+		3FD23BF01AE12C2C00DF976F /* Interactions */ = {
+			isa = PBXGroup;
+			children = (
+				3FD23BF41AE13D6600DF976F /* RoomInteractorInput.h */,
+				3FD23BF51AE13D8600DF976F /* RoomInteractorOutput.h */,
+				3FD23BF61AE13EBF00DF976F /* RoomInteractor.h */,
+				3FD23BF71AE13EBF00DF976F /* RoomInteractor.m */,
+				3FD23BF91AE14F3400DF976F /* RoomViewModel.h */,
+				3FD23BFA1AE14F3400DF976F /* RoomViewModel.m */,
+			);
+			name = Interactions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD23BED1AE129A600DF976F /* Room.m in Sources */,
 				3FD23BC71AE10A2700DF976F /* ViewController.m in Sources */,
 				3FD23BC41AE10A2700DF976F /* AppDelegate.m in Sources */,
+				3FD23BFB1AE14F3400DF976F /* RoomViewModel.m in Sources */,
 				3FD23BC11AE10A2700DF976F /* main.m in Sources */,
+				3FD23C021AE1543C00DF976F /* RoomEntity.m in Sources */,
+				3FD23BEA1AE11EC400DF976F /* Computer.m in Sources */,
+				3FD23BF81AE13EBF00DF976F /* RoomInteractor.m in Sources */,
+				3FD23BE71AE1190C00DF976F /* Device.m in Sources */,
+				3FD23BFE1AE1519100DF976F /* DataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

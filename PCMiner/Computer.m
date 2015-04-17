@@ -10,4 +10,19 @@
 
 @implementation Computer
 
+- (id)initWithName:(NSString *)name
+ nOfProcessorSlots:(int)numberOfProcessorSlots
+    nOfMemorySlots:(int)numberOfMemorySlots
+     nOfDriveSlots:(int)numberOfDriveSlots
+{
+    self = [super init];
+    if (self) {
+        _name = name;
+        _numberOfProcessorSlots = numberOfProcessorSlots;
+        _numberOfMemorySlots = numberOfMemorySlots;
+        _numberOfDriveSlots = numberOfDriveSlots;
+    }
+    return self;
+}
+
 @end

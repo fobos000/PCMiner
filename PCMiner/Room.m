@@ -10,4 +10,13 @@
 
 @implementation Room
 
+- (id)initWithNumberOfComputersPlaces:(int)numberOfComputersPlaces
+{
+    self = [super init];
+    if (self) {
+        _numberOfComputersPlaces = numberOfComputersPlaces;
+    }
+    return self;
+}
+
 @end

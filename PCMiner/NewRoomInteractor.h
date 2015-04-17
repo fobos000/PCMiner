@@ -10,4 +10,6 @@
 
 @interface NewRoomInteractor : NSObject
 
+- (void)createRoom;
+
 @end

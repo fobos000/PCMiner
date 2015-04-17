@@ -6,8 +6,13 @@
 //  Copyright (c) 2015 Ostap Horbach. All rights reserved.
 //
 
-#ifndef PCMiner_RoomInteractorOutput_h
-#define PCMiner_RoomInteractorOutput_h
+#import <Foundation/Foundation.h>
+#import "RoomViewModel.h"
+
+@protocol RoomInteractorOutput <NSObject>
+
+@required
+- (void)updateRoom:(RoomViewModel *)room;
 
 
-#endif
+@end

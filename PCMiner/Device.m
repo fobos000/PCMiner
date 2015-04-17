@@ -10,4 +10,19 @@
 
 @implementation Device
 
+- (id)initWithType:(NSString *)type
+              name:(NSString *)name
+             speed:(double)speed
+             price:(double)price
+{
+    self = [super init];
+    if (self) {
+        _type = type;
+        _name = name;
+        _speed = speed;
+        _price = price;
+    }
+    return self;
+}
+
 @end

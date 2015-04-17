@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Ostap Horbach. All rights reserved.
 //
 
-#ifndef PCMiner_RoomInteractorInput_h
-#define PCMiner_RoomInteractorInput_h
+@protocol RoomInteractorInput <NSObject>
 
+@required
+- (void)createRoom;
+- (void)deleteRoom;
 
-#endif
+@end

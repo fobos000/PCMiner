@@ -10,4 +10,14 @@
 
 @interface Device : NSObject
 
+- (id)initWithType:(NSString *)type
+              name:(NSString *)name
+             speed:(double)speed
+             price:(double)price;
+
+@property (nonatomic) NSString *type;
+@property (nonatomic) NSString *name;
+@property (nonatomic) double speed;
+@property (nonatomic) double price;
+
 @end

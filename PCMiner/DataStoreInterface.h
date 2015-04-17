@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Ostap Horbach. All rights reserved.
 //
 
-#ifndef PCMiner_DataStoreInterface_h
-#define PCMiner_DataStoreInterface_h
+#import <Foundation/Foundation.h>
+#import "RoomEntity.h"
+
+@protocol DataStoreInterface <NSObject>
 
 
-#endif
+@end
