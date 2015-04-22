@@ -21,6 +21,9 @@
 		3FD23BFB1AE14F3400DF976F /* RoomViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BFA1AE14F3400DF976F /* RoomViewModel.m */; };
 		3FD23BFE1AE1519100DF976F /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23BFD1AE1519100DF976F /* DataStore.m */; };
 		3FD23C021AE1543C00DF976F /* RoomEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23C011AE1543C00DF976F /* RoomEntity.m */; };
+		7F3CD9701AE8382E004BAB1C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD96F1AE8382E004BAB1C /* SignUpViewController.m */; };
+		7F3CD9771AE83ABB004BAB1C /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD9761AE83ABB004BAB1C /* SignInViewController.m */; };
+		7F3CD97A1AE83B84004BAB1C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD9791AE83B84004BAB1C /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,12 @@
 		3FD23BFF1AE1520B00DF976F /* DataStoreInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStoreInterface.h; sourceTree = "<group>"; };
 		3FD23C001AE1543C00DF976F /* RoomEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomEntity.h; sourceTree = "<group>"; };
 		3FD23C011AE1543C00DF976F /* RoomEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomEntity.m; sourceTree = "<group>"; };
+		7F3CD96E1AE8382E004BAB1C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		7F3CD96F1AE8382E004BAB1C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		7F3CD9751AE83ABB004BAB1C /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		7F3CD9761AE83ABB004BAB1C /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		7F3CD9781AE83B84004BAB1C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7F3CD9791AE83B84004BAB1C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,7 @@
 		3FD23BBD1AE10A2700DF976F /* PCMiner */ = {
 			isa = PBXGroup;
 			children = (
+				7F3CD96D1AE837DB004BAB1C /* View */,
 				3FD23BF01AE12C2C00DF976F /* Interactions */,
 				3FD23BEF1AE12BA900DF976F /* DataSore */,
 				3FD23BEE1AE12AD300DF976F /* Model */,
@@ -155,6 +165,8 @@
 				3FD23BE91AE11EC400DF976F /* Computer.m */,
 				3FD23BEB1AE129A600DF976F /* Room.h */,
 				3FD23BEC1AE129A600DF976F /* Room.m */,
+				7F3CD9781AE83B84004BAB1C /* User.h */,
+				7F3CD9791AE83B84004BAB1C /* User.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -182,6 +194,17 @@
 				3FD23BFA1AE14F3400DF976F /* RoomViewModel.m */,
 			);
 			name = Interactions;
+			sourceTree = "<group>";
+		};
+		7F3CD96D1AE837DB004BAB1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CD96E1AE8382E004BAB1C /* SignUpViewController.h */,
+				7F3CD96F1AE8382E004BAB1C /* SignUpViewController.m */,
+				7F3CD9751AE83ABB004BAB1C /* SignInViewController.h */,
+				7F3CD9761AE83ABB004BAB1C /* SignInViewController.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,15 +307,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3CD97A1AE83B84004BAB1C /* User.m in Sources */,
 				3FD23BED1AE129A600DF976F /* Room.m in Sources */,
 				3FD23BC71AE10A2700DF976F /* ViewController.m in Sources */,
 				3FD23BC41AE10A2700DF976F /* AppDelegate.m in Sources */,
 				3FD23BFB1AE14F3400DF976F /* RoomViewModel.m in Sources */,
+				7F3CD9771AE83ABB004BAB1C /* SignInViewController.m in Sources */,
 				3FD23BC11AE10A2700DF976F /* main.m in Sources */,
 				3FD23C021AE1543C00DF976F /* RoomEntity.m in Sources */,
 				3FD23BEA1AE11EC400DF976F /* Computer.m in Sources */,
 				3FD23BF81AE13EBF00DF976F /* RoomInteractor.m in Sources */,
 				3FD23BE71AE1190C00DF976F /* Device.m in Sources */,
+				7F3CD9701AE8382E004BAB1C /* SignUpViewController.m in Sources */,
 				3FD23BFE1AE1519100DF976F /* DataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +514,7 @@
 				3FD23BE01AE10A2700DF976F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FD23BE11AE10A2700DF976F /* Build configuration list for PBXNativeTarget "PCMinerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +523,7 @@
 				3FD23BE31AE10A2700DF976F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
