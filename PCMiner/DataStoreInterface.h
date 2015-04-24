@@ -11,5 +11,4 @@
 
 @protocol DataStoreInterface <NSObject>
 
-
 @end
